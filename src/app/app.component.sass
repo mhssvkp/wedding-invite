@@ -1,14 +1,20 @@
 $bg: #FFDEE9
 $bg-img: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)
 
-$color: #ED8D8D
+$color: #0047AB
 
 $font-stack: 'Lato', sans-serif
 
 .font-estimations
     font-family: estimations
-    font-size: 5vw
+    font-size: 4vw
+    color: #452c63
 
+.ganesha-height
+    height: 20vw
+
+.dragon-font
+    font-family: dragon
 
 .heading
     color: $color
@@ -22,9 +28,9 @@ $font-stack: 'Lato', sans-serif
     color: $bg
     z-index: 2
     width: 100%
-    height: 150px
+    height: 15vw
     img
-        height: 150px
+        height: 15vw
         position: relative
         z-index: 3
         border-radius: 10%
@@ -99,9 +105,43 @@ $font-stack: 'Lato', sans-serif
 .text-align-right
     text-align: right
 
+
+.text-align-center
+    text-align: center
+    font-size: 3vw
+    z-index: 5
+    display: block
+
+
 .center-align
     text-align: center
     z-index: 33
 
 .filter-color
     filter: invert(78%) sepia(29%) saturate(6806%) hue-rotate(359deg) brightness(101%) contrast(105%)
+
+.peacock-bttm-lft
+    position: fixed
+    left: 0px
+    bottom: 0px
+    z-index: 0
+    height: 20vw
+    transform: scaleX(-1)
+    margin: 10px
+    mix-blend-mode: darken
+    filter: invert(4%) sepia(85%) saturate(6950%) hue-rotate(285deg) brightness(106%) contrast(116%)
+.peacock-bttm-rt
+    position: fixed
+    right: 0px
+    bottom: 0px
+    z-index: 0
+    height: 20vw
+    margin: 10px
+    mix-blend-mode: darken
+    filter: invert(4%) sepia(85%) saturate(6950%) hue-rotate(285deg) brightness(106%) contrast(116%)
+
+.container-fluid
+    padding: 40px
+
+.less-size
+    font-size: 2vw

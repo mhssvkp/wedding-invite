@@ -6,7 +6,13 @@
 @font-face 
     font-family: 'estimations'
     src: url('./assets/fonts/Infinite_Stroke_Bolder_Cond.otf') format('opentype')
-    font-weight: 300
+    font-weight: 500
+    font-style: normal
+
+@font-face 
+    font-family: 'dragon'
+    src: url('./assets/fonts/Estimation.otf') format('opentype')
+    font-weight: 500
     font-style: normal
 
 
@@ -17,12 +23,13 @@ $bg-img: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)
 
 html,
 body
-    font: 100% $font-stack
+    font: 100% estimations
     font-weight: 300
     height: 100%
     background-color: $bg
     background: url("/assets/images/art3.svg") , $bg-img 
-    background-size: 100% 100%
+    background-size: 100% 100%, 100% 100%
+    background-position: center, center
     background-repeat: no-repeat
-    background-blend-mode: overlay
+    background-blend-mode: overlay, overlay
     background-attachment: fixed 
