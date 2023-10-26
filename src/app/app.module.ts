@@ -8,12 +8,10 @@ import {
   NgbModule,
   NgbNavModule,
 } from '@ng-bootstrap/ng-bootstrap';
-import { NavConfigComponent } from './nav-config/nav-config.component';
-import { TheBeginningComponent } from './the-beginning/the-beginning.component';
 import { FormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [AppComponent, NavConfigComponent, TheBeginningComponent],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

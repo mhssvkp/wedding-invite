@@ -2,3 +2,27 @@
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap'
+
+@font-face 
+    font-family: 'estimations'
+    src: url('./assets/fonts/Infinite_Stroke_Bolder_Cond.otf') format('opentype')
+    font-weight: 300
+    font-style: normal
+
+
+
+$font-stack: 'Lato', sans-serif
+$bg: #FFDEE9
+$bg-img: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%)
+
+html,
+body
+    font: 100% $font-stack
+    font-weight: 300
+    height: 100%
+    background-color: $bg
+    background: url("/assets/images/art3.svg") , $bg-img 
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-blend-mode: overlay
+    background-attachment: fixed 
